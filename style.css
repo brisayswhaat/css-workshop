@@ -47,3 +47,11 @@ section {
   overflow-wrap: break-word;
   background: yellow;
 }
+
+.gradient {
+  width: 350px;
+  height: 350px;
+  margin: 50px auto;
+  background-color: lightblue;
+  background: repeating-radial-gradient(rgba(255,255,255,0), lightgreen, lightblue 30%);
+}
