@@ -55,3 +55,19 @@ section {
   background-color: lightblue;
   background: repeating-radial-gradient(rgba(255,255,255,0), lightgreen, lightblue 30%);
 }
+
+.transition {
+  height: 200px;
+  width: 200px;
+  background-color: tan;
+  transition: height 2s, width 5s, transform 5s;
+}
+
+.transition:hover {
+  transform: rotate(90deg);
+}
+
+.transition:active {
+  height: 300px;
+  width: 300px;
+}
