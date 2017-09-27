@@ -17,6 +17,12 @@ h1 {
   padding-bottom: 30px;
 }
 
+section {
+  width: 800px;
+  margin: 20px auto;
+  background: white;
+}
+
 /* Workshop Styles */
 .border-radius {
   border: 5px solid orange;
@@ -33,4 +39,11 @@ h1 {
   padding: 50px;
   border: 50px solid transparent;
   background-clip: padding-box;
+}
+
+.wrap {
+  width: 490px;
+  padding: 40px;
+  overflow-wrap: break-word;
+  background: yellow;
 }
