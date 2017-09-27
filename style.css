@@ -1,0 +1,25 @@
+/* Setup Styles */
+body {
+  background-color: teal;
+}
+
+.wrapper {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  font-size: 48px;
+  color: white;
+  padding-bottom: 30px;
+}
+
+.border-radius {
+  border: 5px solid orange;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
