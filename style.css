@@ -17,9 +17,20 @@ h1 {
   padding-bottom: 30px;
 }
 
+/* Workshop Styles */
 .border-radius {
   border: 5px solid orange;
   height: 200px;
   width: 200px;
   border-radius: 50%;
+}
+
+.border-img {
+  height: 240px;
+  width: 240px;
+  position: relative;
+  background-image: url("img/abstract.jpeg");
+  padding: 50px;
+  border: 50px solid transparent;
+  background-clip: padding-box;
 }
